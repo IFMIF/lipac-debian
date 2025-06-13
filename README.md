@@ -5,4 +5,4 @@ This image is derived from bitnami/minideb, but includes all the packages requir
 
 To use it in your Dockerfile, include it like this:
 
-    FROM ghcr.io/ifmif/lipac-debian:master
+    FROM ghcr.io/ifmif/lipac-debian
