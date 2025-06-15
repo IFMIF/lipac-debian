@@ -3,7 +3,7 @@
 FROM bitnami/minideb:bookworm
 
 # Install all the packages required to compile EPICS
-RUN apt update && apt install -y \
+RUN apt update && apt upgrade && apt install -y \
 	gcc \
 	g++ \
 	git \
@@ -19,4 +19,3 @@ RUN apt update && apt install -y \
 	re2c \
 	rpcsvc-proto \
 	doxygen
-
